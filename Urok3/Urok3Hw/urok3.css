@@ -1,0 +1,51 @@
+div {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    background-color: #a52a2a;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue2 {
+    font-style: italic;
+    color: blue;
+}
+
+.divimage {
+    border-style: dashed;
+}
+
+.cars {
+    border: dashed;
+    width: 408px;
+}
+
+.blue {
+    color: blue;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+}
