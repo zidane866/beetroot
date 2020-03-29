@@ -1,0 +1,45 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Lato', Sans-serif;
+}
+
+.wrapper {
+    background-color: white;
+    width: 1200px;
+    height: 249px;
+    margin: auto;
+    text-align: center;
+}
+
+.lamp {
+    display: block;
+    float: left;
+    text-align: center;
+    width: calc(100% / 3);
+    height: 202px;
+    margin-top: 23px;
+}
+
+.title {
+    color: #414141;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+p {
+    color: #6C6C6C;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.fish-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 14px;
+}
