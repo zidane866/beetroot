@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    color: #0ec8cb;
+    font-size: 48px;
+}
+
+header p {
+    color: #898f99;
+}
+
+header {
+    margin-top: 144px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header p:nth-of-type(1) {
+    letter-spacing: 4.8px;
+    font-size: 12px;
+}
+
+header p:nth-of-type(2) {
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    color: #999999;
+    opacity: 0.5;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    margin: 108px 0 110px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards {
+    width: 236px;
+    height: 420px;
+    border: 1px solid #ececec;
+    padding-top: 55px;
+}
+
+.cards:not(:nth-child(2)) {
+    background-color: #f7f7f7;
+}
+
+.cards:nth-child(2) {
+    background-color: #0ec8cb;
+    color: #ffffff;
+}
+
+.cards:nth-of-type(3) h3, .card:nth-of-type(4) h3 {
+    margin-top: 54px;
+}
+
+.cards h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.cards p {
+    color: #777777;
+    font-family: "PT Sans";
+    font-size: 14px;
+    line-height: 22px;
+    width: 174px;
+    margin: auto;
+    margin-top: 33px;
+}
+
+.cards:nth-child(2) p {
+    color: #ffffff;
+}
