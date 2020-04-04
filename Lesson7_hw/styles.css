@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Lato-LightItalic";
+  src: url(./fonts/Lato-LightItalic.ttf);
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url(./fonts/Lato-Light.ttf);
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Playfair-Display";
+  src: url(./fonts/PlayfairDisplay-Regular.ttf);
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1716px;
+  height: 1351px;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+article {
+  padding: 140px 136px 39px 120px;
+}
+
+h1 {
+  color: #171717;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  font-family: "Playfair-Display";
+}
+
+article>p:nth-of-type(1)::first-letter {
+  font-size: 110px;
+  color: #171717;
+  float: left;
+  line-height: 50px;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-family: "Playfair-Display";
+}
+
+p {
+  margin-bottom: 54px;
+  font-size: 18px;
+  line-height: 34px;
+  opacity: 0.7;
+  font-family: "Lato-Light";
+}
+
+.quote>p:before {
+  content: '“';
+  font-size: 250%;
+}
+
+.quote>p {
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 42px;
+  font-family: "Lato-LightItalic";
+  opacity: 0.7;
+}
+
+.button {
+  width: 264px;
+  height: 68px;
+  border: 2px solid #eaa258;
+  color: #eaa258;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-bottom: 122px;
+}
