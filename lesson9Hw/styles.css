@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    padding: o 15px;
+}
+
+.header {
+    height: 100vh;
+    background: url('images/header_img.png') 50%/cover;
+}
+
+.header__top {
+    color: #262626;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header__logo {
+    font: normal 5rem 'Pacifico', cursive;
+    position: relative;
+    top: 10px;
+    left: 10%;
+}
+
+.header__menu {
+    font: bold 4.6rem 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.header__menu-list {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    top: 30px;
+    right: 10%;
+}
+
+.menu__link {
+    padding: 15px;
+}
+
+.menu__link--active::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 35px;
+    left: 14px;
+    top: 25%;
+    background-color: #ff6033;
+}
+
+.header__content {
+    width: 400px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+.header__content-title {
+    font: 800 4.5rem 'Raleway', sans-serif;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.header__content-description {
+    font: 300 1.5rem 'Raleway', sans-serif;
+    line-height: 25px;
+    padding-bottom: 20px
+}
+
+.header_content-btn {
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #ff6033;
+    color: #ffffff;
+    font: 300 1.7rem 'Raleway', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.header__content-decor {
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+}
+
+.section {
+    width: auto;
+    height: 100vh;
+    background-color: #00c4c4;
+    background-image: url('images/body_img.png');
+    background-repeat: no-repeat;
+    background-position: left 10% bottom 25%;
+}
+
+.section__content {
+    width: 499px;
+    color: #fff;
+    position: relative;
+    top: 30%;
+    left: 55%;
+}
+
+.section__title {
+    font: 800 8rem 'Raleway', sans-serif;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.section__text {
+    font: 300 1.7rem 'Raleway', sans-serif;
+    line-height: 27px;
+    padding-top: 20px;
+}
